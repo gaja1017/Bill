@@ -29,7 +29,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 WORKDIR /app/frontend
 COPY --from=frontend-builder /app/frontend/.next/standalone ./
 COPY --from=frontend-builder /app/frontend/.next/static ./.next/static
-COPY --from=frontend-builder /app/frontend/public ./public 2>/dev/null || true
+COPY --from=frontend-builder /app/frontend/public ./public
 
 # Supervisor configuration
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
