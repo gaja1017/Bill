@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env.local
+backend/.env
+
+# Build outputs
+frontend/.next/
+frontend/out/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Saved quotes data
+backend/saved_quotes/
+
+# Misc
+*.swp
+*.swo

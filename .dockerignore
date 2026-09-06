@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+frontend/node_modules
+backend/venv
+backend/__pycache__
+
+# Build outputs
+frontend/.next
+frontend/out
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env.local
+backend/.env
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Saved data
+backend/saved_quotes
+
+# Documentation
+*.md
+!README.md
